@@ -1,5 +1,5 @@
 #Here you can choose the name of the file. mp3 files supported only. Will get saved to the sounds folder
-FileName: yooo.mp3
+FileName: scream.mp3
 
 #Amount of time to get ready and move mouse. After this period, a confirmation sound plays once and a bounding box 20 pixels around dings
 TimeToGetReady: 5
