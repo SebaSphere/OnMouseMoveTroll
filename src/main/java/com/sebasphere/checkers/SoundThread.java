@@ -20,6 +20,7 @@ public class SoundThread extends Thread {
         catch(Exception exc){
             exc.printStackTrace();
             System.out.println("Failed to play the file.");
+            System.exit(0); //exits the program if condition is met
         }
     }
 }

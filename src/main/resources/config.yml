@@ -1,11 +1,13 @@
 #Here you can choose the name of the file. mp3 files supported only. Will get saved to the sounds folder
-FileName: yooo.mp3
+FileName: scream.mp3
 
-#Amount of time to get ready and move mouse. After this period, a confirmation sound plays once and a bounding box 20 pixels around dings
+#Amount of time to get ready and move mouse. After this period, a confirmation sound plays once and if mouse moves, noise loops.
 TimeToGetReady: 5
 
-#The amount of seconds after your mouse leaves the invisible bounding box till the mp3 plays
+#TODO
+#The amount of seconds after your mouse leaves till the mp3 plays (Not Implemented)
 AmountAfterLeave: 5
 
-#Will the noise loop or only play once? ONCE or LOOP.
+#TODO
+#Will the noise loop or only play once? ONCE or LOOP. (Not Implemented)
 PlayParameters: ONCE

@@ -33,6 +33,7 @@ public class ConfigHandler {
         if (type.equals("init")) {
             createConfigFile();
             createFilePaths();
+            readConfigValues();
         }
         if (type.equals("access")) {
             readConfigValues();
@@ -69,8 +70,7 @@ public class ConfigHandler {
             }
         }
     }
-
-
+    //TODO
     private void createConfigFile() {
         try {
             if (!(dest.exists())) {

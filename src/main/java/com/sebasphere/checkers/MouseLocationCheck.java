@@ -1,19 +1,16 @@
 package com.sebasphere.checkers;
 
 import java.awt.*;
-import java.util.concurrent.Callable;
 
-public class MouseLocationThread implements Callable<Integer> {
+public class MouseLocationCheck {
 
-    private int x;
-    private int y;
+    private Point info = MouseInfo.getPointerInfo().getLocation();
 
-
-    @Override
-    public Integer call() throws Exception {
-        PointerInfo info = MouseInfo.getPointerInfo();
-        int x = info.getLocation().x;
-        return x;
+    public int mouseLocX() {
+        return info.getLocation().x;
+    }
+    public int mouseLocY() {
+        return info.getLocation().y;
     }
 }
 

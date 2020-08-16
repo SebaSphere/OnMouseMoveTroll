@@ -11,11 +11,16 @@ mainClassName = 'com.sebasphere.Main'
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
 }
 
 dependencies {
     compile group: 'com.esotericsoftware.yamlbeans', name: 'yamlbeans', version: '1.06'
     compile group: 'javazoom', name: 'jlayer', version: '1.0.1'
+    compile'com.github.ROMVoid95:utils:0.0.2'
+
 
 }
 
@@ -28,7 +33,5 @@ jar {
     }
     from {
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
-    } {
-
     }
 }
