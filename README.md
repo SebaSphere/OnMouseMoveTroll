@@ -1,5 +1,5 @@
 **You will need to make a file called config.yml with below text implemented if you get a error (mostly since implementation works in my IDE but not compiled on my PC)**
-https://hasteb.in/acojanax.yaml
+https://pastebin.com/AaKfkveZ
 
 
 Double click the jar when built to start or set a bat file to the jar.
